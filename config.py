@@ -2,10 +2,10 @@ import os, re
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+API_ID = int(os.environ.get("API_ID", "27678491"))
+API_HASH = os.environ.get("API_HASH", "ea8f0a6f6dc1b3cf2033463b574c50a3")
+OWNER = int(os.environ.get("OWNER", "rasharking"))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "bot")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "HxBots")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002031041556"))
